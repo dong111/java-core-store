@@ -1,0 +1,468 @@
+/*手机详情*/
+.phonetinfo .row-spaces {
+    margin: 15px 20px;
+}
+
+.phonetinfo .glyphicon {
+    top: 0;
+    cursor: pointer;
+}
+
+address, caption, cite, code, dfn, em, th, var {
+    font-style: normal;
+    font-weight: 400;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.phonetinfo .bottom-margin {
+    margin-bottom: 15px;
+}
+
+/*批量/单个发布*/
+.phonetinfo .select-item {
+    width: 958px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0 15px 0;
+    margin-bottom: 20px;
+}
+
+.phonetinfo .ui-custom {
+    float: left;
+    width: 338px;
+}
+
+.phonetinfo .ui-custom .current {
+    border: 1px solid #5bb6f3;
+    background: #5bb6f3;
+    color: #fff;
+    padding: 7px 10px;
+    float: left;
+    border-radius: 4px 0 0 4px;
+    width: 120px;
+}
+
+.phonetinfo .text-entire {
+    float: left;
+}
+
+.phonetinfo .input-xs {
+    width: 110px;
+    float: left;
+}
+
+.phonetinfo .text-entire .input-xs {
+    height: 36px;
+    width: 170px;
+    float: left;
+    border-radius: 0 4px 4px 0;
+}
+
+.phonetinfo .ui-custom .caret {
+    margin: 17px 0 0 -20px;
+}
+
+.phonetinfo .search-cats {
+    display: none;
+    position: absolute;
+    width: 290px;
+    border: 1px solid #DDD;
+    background-color: #F5F5F5;
+    max-height: 400px;
+    overflow-y: scroll;
+    z-index: 100;
+}
+
+.phonetinfo .search-cats .select-cat {
+    padding: 4px 0 0 10px;
+}
+
+.phonetinfo .icheckbox_square-blue {
+    float: left;
+}
+
+.phonetinfo .ui-custom .todo {
+    border: 1px solid #bebebe;
+    background: #bebebe;
+    color: #fff;
+    padding: 7px 10px;
+    float: left;
+    border-radius: 4px 0 0 4px;
+    width: 120px;
+}
+
+.phonetinfo .search-cats {
+    display: none;
+    position: absolute;
+    width: 290px;
+    border: 1px solid #DDD;
+    background-color: #F5F5F5;
+    max-height: 400px;
+    overflow-y: scroll;
+    z-index: 100;
+}
+
+.phonetinfo .a-options a {
+    background: #FFF;
+    font-size: 14px;
+    float: left;
+    display: inline-block;
+    margin: 0 10px 5px 0;
+    color: #373737;
+    border: 2px solid #E0E0E0;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.phonetinfo .a-options a.current {
+    background: url(../img/icon_current.png) right bottom no-repeat #FFF;
+    border: 2px solid #5bb6f3;
+    color: #5bb6f3;
+    float: left;
+    display: block;
+}
+
+.phonetinfo .ui-price-range {
+    float: left;
+}
+
+.phonetinfo .price-range {
+    float: left;
+    line-height: 35px;
+}
+
+.phonetinfo .ui-price-range .form-control.input-xs {
+    width: 64px;
+}
+
+.phonetinfo .adde {
+    float: left;
+    line-height: 30px;
+}
+
+/**/
+.phonetinfo .description {
+    margin: 8px 0 0 10px;
+    width: 245px;
+}
+
+.phonetinfo .table thead tr th {
+    padding: 8px 20px;
+}
+
+.phonetinfo .table tbody tr td {
+    padding: 25px 20px;
+    font-size: 14px;
+}
+
+.phonetinfo .table tbody tr td .description a {
+    color: #333;
+}
+
+.phonetinfo .right-bottmer {
+    position: fixed;
+    bottom: 0;
+    background: #EFEEEE;
+    width: 100%;
+    border-top: 1px solid #eee;
+    left: 0;
+    z-index: 200;
+}
+
+.phonetinfo .right-bottom-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center !important;
+}
+
+.phonetinfo .release-details {
+    width: 21%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center !important;
+}
+
+.phonetinfo .sync-cowry {
+    position: absolute;
+    top: 6px;
+    margin-right: 20px;
+    right: 20px;
+}
+
+.phonetinfo .multiple-choice {
+    float: left;
+    margin: 30px 5px 0 0;
+}
+
+.phonetinfo .promo-btn {
+    position: relative;
+}
+
+.phonetinfo .promo-btn .promo-type-item {
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 27px;
+    text-align: left;
+    z-index: 101;
+}
+
+.phonetinfo .promo-btn .promo-type-item a {
+    background: #5BB6EF;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    height: 34px;
+    line-height: 34px;
+    position: relative;
+    display: block;
+    font-size: 14px;
+    width: 120px;
+    top: -3px;
+    z-index: 101;
+}
+
+.phonetinfo .promo-btn .promo-type-item a:hover {
+    background: #2da1ea;
+    border-color: #1691de;
+}
+
+.phonetinfo .promo-btn .promo-type-item a:last-child {
+    border-radius: 0 0 3px 3px;
+}
+
+.phonetinfo .post-settings {
+    position: absolute;
+    right: 100px;
+    top: 0;
+}
+.phonetinfo .release-way {
+width: 310px;
+position: relative;
+background: #fff;
+border: 1px solid #ddd;
+right: 0;
+top: 32px;
+z-index: 200;
+max-height: 300px;
+border-radius: 5px 0 5px 5px;
+}
+
+
+/*.post-settings {*/
+    /*position: relative;*/
+/*}*/
+
+/*.release-way {*/
+    /*position: absolute;*/
+    /*background: #fff;*/
+    /*border: 1px solid #ddd;*/
+    /*right: 0;*/
+    /*top: 32px;*/
+    /*z-index: 200;*/
+    /*max-height: 300px;*/
+    /*display: none;*/
+/*}*/
+
+.phonetinfo .ui-close {
+    text-align: right;
+    margin: 5px 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    color: #999;
+}
+
+.phonetinfo .glyphicon-left {
+    display: none;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    top: 62px;
+    z-index: 1011;
+    background: url(../img/iconfont-wanggexinxi03.png) 0 0;
+    right: 102px;
+}
+
+.phonetinfo .right-tips {
+    display: none;
+    border: 1px solid #DDD;
+    background: #F8F8F8;
+    padding: 8px 15px;
+    position: absolute;
+    right: -82px;
+    width: 188px;
+    top: -26px;
+    border-radius: 4px;
+    font-size: 12px;
+    box-sizing: border-box;
+    z-index: 200;
+}
+
+.phonetinfo .binding-icon {
+    background: url(../img/iconfont.png) -4px -4px;
+    width: 15px;
+    height: 18px;
+    margin: -2px 0 0 10px;
+    float: left;
+    cursor: pointer;
+}
+
+.phonetinfo .unbounded-icon {
+    background: url(../img/iconfont2.png) -4px -4px;
+    width: 15px;
+    height: 18px;
+    margin: -2px 0 0 10px;
+    float: left;
+    cursor: pointer;
+}
+
+/*操作记录*/
+
+/*详情记录*/
+.phonetinfo .bs-example {
+    position: relative;
+}
+
+.phonetinfo .bs-example .return {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    margin-right: 20px;
+}
+
+.phonetinfo .SumoSelect {
+    width: 150px !important;
+    float: left;
+    margin-right: 10px;
+}
+
+.phonetinfo .keyword-search {
+    width: 435px;
+}
+
+.phonetinfo .keyword-search .form-control {
+    width: 50%;
+    float: left;
+    margin-right: 5px;
+}
+
+.phonetinfo .product-info {
+    float: left;
+    width: 240px;
+    margin: 15px 0 0 10px;
+}
+
+.phonetinfo .table tbody tr td .product-info a {
+    color: #333;
+}
+
+.phonetinfo .project-team {
+    border: none;
+    padding: 10px 0 15px 0;
+    margin-bottom: 0;
+}
+
+/*查看手机详情-弹窗*/
+.phonetinfo .device-status {
+    text-align: center;
+    margin: auto;
+    width: 520px;
+}
+
+/*.phonetinfo .details-group {*/
+    /*margin-bottom: 8px;*/
+    /*position: relative;*/
+    /*float: left;*/
+/*}*/
+
+.phonetinfo .details-group {
+    margin-bottom: 10px;
+    position: relative;
+    float: left;
+    /*height: 206px;*/
+}
+
+.phonetinfo .details-group-nobot {
+    position: relative;
+    float: left;
+    /*height: 206px;*/
+}
+
+/*编辑手机详情-弹窗*/
+.phonetinfo .hint {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.phonetinfo .shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    background: #000;
+    width: 520px;
+    height: 100%;
+    line-height: 140px;
+    opacity: 0.5;
+    filter:alpha(opacity=50);
+}
+
+
+/*.phonetinfo .shade {*/
+    /*position: relative;*/
+    /*color: #fff;*/
+    /*text-align: center;*/
+    /*background: #000;*/
+    /*width: 521px;*/
+    /*opacity: 0.7;*/
+    /*margin-bottom: 10px;*/
+    /*height: 206px;*/
+/*}*/
+
+.phonetinfo .modal-body .shade .glyphicon {
+    right: -215px;
+    font-size: 16px;
+    top: -47px;
+}
+
+/*.phonetinfo .modal-body .shade .glyphicon {*/
+    /*right: -215px;*/
+    /*font-size: 16px;*/
+    /*top: 10px;*/
+/*}*/
+
+/*删除手机详情-弹窗*/
+.delete-prompt {
+    width: 365px;
+    margin: 30px auto;
+}
+
+.phonetinfo .modal-body .glyphicon {
+    font-size: 35px;
+    top: 12px;
+    margin-right: 10px;
+}
+
+.delete-former {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.after-deleting {
+    color: #999;
+}
+
+/*新加样式*/
+.operating-record {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 20px;
+}

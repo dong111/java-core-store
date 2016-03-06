@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+	<decorator name="layout_menu" page="layout_menu_yl.jsp">
+		<pattern>/yl/*</pattern>
+	</decorator>
+    <decorator name="layout_menu_yx"
+               page="layout_menu_yx.jsp">
+        <pattern>/yx/*</pattern>
+    </decorator>
+</decorators>

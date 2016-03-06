@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+/*Dialog 弹窗 */
+.dialog_style_1 { background: url(../img/dialog_bg_blue.png) 0px 39px repeat-x #FFF; border: 1px solid #7CCBDA; }
+.dialog_center{ padding:15px;  margin:auto; }
+.dialog_style_1 .dialog_title { position: relative; height: 38px; line-height: 38px; background: url(../img/dialog_title_blue.png) repeat-x; border-top: 1px solid #FFF; border-right: 1px solid #FFF; }
+.dialog_style_1 .dialog_title span { display: block; float: left; width: 300px; background: url(../img/dialog_title_span_bg.png) left center no-repeat; height: 38px; font-family: "微软雅黑"; font-size: 16px; font-weight: bold; padding-left: 16px; cursor: move; }
+.dialog_style_1 .dialog_btn_close { position: absolute; top: 6px; right: 8px; display: block; width: 22px; height: 22px; line-height: 9999px; background: url(../img/dialog_btn_close_blue.png) top center no-repeat; cursor: pointer; overflow: hidden; }
+.dialog_style_1 .dialog_btn_close_disable { position: absolute; top: 6px; right: 8px; display: block; width: 22px; height: 22px; line-height: 9999px; background: url(../img/dialog_btn_close_blue_disable.png) top center no-repeat; cursor: pointer; overflow: hidden }
+.dialog_style_1 .dialog_foot_btn { padding: 20px 15px; text-align: right; }
+.dialog_style_1 .btn_sure { display: inline-block; width: 135px; height: 37px; margin-right: 10px; line-height: 36px; background: url(../img/btn_sure_bg.png) center center no-repeat; color: #FFF; font-size: 14px; text-align: center; font-weight: bold; }
+.dialog_style_1 .btn_cancel { display: inline-block; width: 92px; height: 37px; margin-right: 10px; line-height: 36px; background: url(../img/btn_cancel_bg.png) center center no-repeat; color: #333; font-size: 14px; text-align: center; font-weight: bold; }
+
+/* 首页中奖提示 */
+.dialog_liwu { width: 60%; min-height: 200px; margin: 50px auto 80px auto; padding-left: 180px; background: url(../img/icon_liwu.jpg) left top no-repeat; line-height: 28px; }
+.dialog_share { background: url(../img/icon_share.png) left top no-repeat !important; }
+.dialog_choujiang { background: url(../img/icon_choujiang.jpg) left top no-repeat !important; }
+.dialog_liwu p { padding-top: 18px; font-size: 16px; font-family: "微软雅黑"; font-weight: bold; }
+.dialog_liwu .btn_grab { display: inline-block; width: 134px; height: 29px; background: url(../img/btn_qiang.png) center center no-repeat; cursor: pointer; }
+.dialog_liwu .btn_tuijian { display: inline-block; width: 134px; height: 29px; background: url(../img/btn_tuijian.png) center center no-repeat; cursor: pointer; }
+.dialog_liwu .btn_lingqu { display: inline-block; width: 134px; height: 29px; background: url(../img/btn_lingqu.png) center center no-repeat; cursor: pointer; }
+.dialog_liwu .btn_choujiang { display: inline-block; width: 134px; height: 29px; background: url(../img/btn_choujiang.png) center center no-repeat; cursor: pointer; }
+.dialog_liwu .countdown { font-size: 14px; }
+.dialog_liwu .emphasis { padding: 0 2px; }
+
+/* 版本限制弹窗 */
+.dialog_version { background:url(../img/dialog_bg_red.png) 0px 39px repeat-y #FEF6D8; height:260px; overflow:hidden; border:1px solid #C61414;}
+.dialog_version .dialog_title { position:relative; height:38px; line-height:38px; background:#C61414;}
+.dialog_version .dialog_title span { display:block; float:left; width:300px; background:url(../img/dialog_title_span_bg_red.png) left center no-repeat; height:38px; font-family:"微软雅黑"; font-size:16px; font-weight:bold; padding-left:40px; cursor:move; color:#FFF;}
+.dialog_version .dialog_btn_close { position:absolute; top:6px; right:8px; display:block; width:20px; height:20px; line-height:9999px; background:url(../img/dialog_btn_close_red.png) top center no-repeat; cursor:pointer; overflow:hidden;}
+.version_tips { background:url(../img/icon_version.png) left 55px no-repeat; padding:60px 0px 0px 60px; width:280px; height:80px; margin:auto;}
+.version_tips h2 { font-size:16px; font-family:"微软雅黑";}
+.version_tips p { font-size:12px; color:#666; padding-top:6px;}
+.dialog_version .dialog_foot_btn {}
+.dialog_version .btn_sj { display:inline-block; width:94px; height:30px; line-height:34px; margin-right:10px; overflow:hidden; background:url(../img/btn_sj.png) center center no-repeat; color:#FFF; font-size:14px; text-align:center; font-weight:bold;}
+.dialog_version .btn_mf {  display:inline-block; height:30px; line-height:34px;}
+
+/* 授权提示 */
+.dialog_auth { height:250px; background:url(../img/icon_lock.png) 60px 46px no-repeat;}
+.dialog_auth .dialog_auth_text {padding-top:60px; margin-left:120px;}
+.dialog_auth .dialog_auth_text h2 { color:#090;}
+.dialog_auth .dialog_auth_text span { line-height:34px; color:#666;}
+.dialog_auth .clear { height:15px;}
+
+.dialog_auth_continue { height:250px; background:url(../img/icon_tips.png) 60px 46px no-repeat;}
+.dialog_auth_continue .dialog_auth_text { padding-top:60px; margin-left:120px;}
+.dialog_auth_continue .dialog_auth_text h2 { color:#F60;}
+.dialog_auth_continue .dialog_auth_text span { line-height:34px; color:#666;}
+.dialog_auth_continue .clear { height:15px;}
+
+.dialog_auth_fail { height:250px; background:url(../img/icon_lock_fail.png) 60px 46px no-repeat;}
+.dialog_auth_fail .dialog_auth_text { padding-top:60px; margin-left:120px;}
+.dialog_auth_fail .dialog_auth_text h2 { color:#C00;}
+.dialog_auth_fail .dialog_auth_text span { line-height:34px; color:#666;}
+.dialog_auth_fail .clear { height:15px;}
+
+/* 默认弹窗样式 */
+.dialog_default { font-family:"微软雅黑"; background:#FFF; height:250px; overflow:hidden; border:1px solid #A8CBE7;}
+.dialog_default .dialog_title { position:relative; height:30px; line-height:30px; background:url(../img/dialog_title_default.png) left center repeat-x;}
+.dialog_default .dialog_title span { display:block; float:left; height:30px; font-size:14px; padding-left:10px; cursor:move; color:#000;}
+.dialog_default .dialog_btn_close { position:absolute; top:8px; right:8px; display:block; width:20px; height:20px; line-height:9999px; background:url(../img/dialog_btn_close_default.png) top center no-repeat; cursor:pointer; overflow:hidden;}
+.dialog_default .dialog_btn_close_disable { position:absolute; top:8px; right:8px; display:block; width:20px; height:20px; line-height:9999px; background:url(../img/dialog_btn_close_default.png) top center no-repeat; cursor:pointer; overflow:hidden;}
+.dialog_default .dialog_center { padding:58px 0px 0px 60px; width:250px; background-position:15px 58px; background-repeat:no-repeat; height:120px; margin:auto;}
+.dialog_default .dialog_center h2 { font-size:16px; color:#000; font-family:"微软雅黑";}
+.dialog_default .dialog_center span { font-size:12px; color:#666; padding-top:6px;}
+.dialog_default .dialog_link { text-align:center;}
+
+/* 错误提示 */
+.dialog_default .icon_erro { background-image:url(../img/icon_error.png);}
+/* 信息提示 */
+.dialog_default .icon_info { background-image:url(../img/icon_info.png);}
+/* 问题提示 */
+.dialog_default .icon_help { background-image:url(../img/icon_help_dialog.png);}
+/* 警告提示 */
+.dialog_default .icon_warning{ background-image:url(../img/icon_warning.png);}
+/* 成功提示、正确提示 */
+.dialog_default .icon_valid{ background-image:url(../img/icon_valid.png);}
+/* 加载提示 */
+.dialog_tips .icon_loading { background-image:url(../img/icon_loadding.gif); margin-top:55px !important; padding-left:60px !important; padding-top:15px !important; color:#666 !important;}
+
+/* 无操作的提示信息 */
+.dialog_tips { height:200px; text-align:center;}
+.dialog_tips span.dialog_text { display:inline-block; background-position:0px 0px; background-repeat:no-repeat; height:50px; margin-top:60px; padding-left:40px; padding-top:8px; }
+.dialog_tips h2 { font-size:16px; font-family:"微软雅黑";}
+.dialog_tips span.dialog_text span { display:none; font-size:12px; color:#666; padding-top:6px;}
+.dialog_tips .error_link { display:none;}
+
+
+/* 初级版抢购弹窗 */
+.dialog_style_free { position:relative; background:url(../img/dialog_ju_bg.png) center center no-repeat; height:277px; overflow:hidden;}
+.dialog_style_free .dialog_title { position:relative; height:50px; background:url(../img/dialog_free_title.png) 18px 12px no-repeat; line-height:9999px; overflow:hidden;}
+.dialog_style_free .dialog_title span { display:block; float:left; height:30px; font-size:14px; padding-left:10px; cursor:move; color:#000;}
+.dialog_style_free .dialog_btn_close { position:absolute; top:10px; right:10px; display:block; width:20px; height:20px; line-height:9999px; background:url(../img/dialog_ju_btn_close.png) top center no-repeat; cursor:pointer; overflow:hidden;}
+.dialog_style_free .dialog_value_1 { background:url(../img/dialog_juu_value_1.png) center center no-repeat; height:130px;}
+.dialog_style_free .dialog_value_2 { background:url(../img/dialog_juu_value_2.png) center center no-repeat; height:130px;}
+.dialog_style_free .dialog_ju_btn_go { position:absolute; bottom:50px; left:165px; display:inline-block; width:127px; height:41px; background:url(../img/dialog_free_btn_go.png) center center no-repeat;}
+.dialog_style_free .dialog_ju_btn_no { position:absolute; bottom:60px; left:301px; display:inline-block; width:75px; height:21px; background:url(../img/dialog_ju_btn_no.png) center center no-repeat;}
+
+/* 聚划算弹窗 */
+.dialog_style_ju { position:relative; background:url(../img/dialog_ju_bg.png) center center no-repeat; height:277px; overflow:hidden;}
+.dialog_style_ju .dialog_title { position:relative; height:50px; background:url(../img/dialog_juu_title.png) 18px 12px no-repeat; line-height:9999px; overflow:hidden;}
+.dialog_style_ju .dialog_title span { display:block; float:left; height:30px; font-size:14px; padding-left:10px; cursor:move; color:#000;}
+.dialog_style_ju .dialog_btn_close { position:absolute; top:10px; right:10px; display:block; width:20px; height:20px; line-height:9999px; background:url(../img/dialog_ju_btn_close.png) top center no-repeat; cursor:pointer; overflow:hidden;}
+.dialog_style_ju .dialog_value_1 { background:url(../img/dialog_juu_value_1.png) center center no-repeat; height:130px;}
+.dialog_style_ju .dialog_value_2 { background:url(../img/dialog_juu_value_2.png) center center no-repeat; height:130px;}
+.dialog_style_ju .dialog_ju_btn_go { position:absolute; bottom:50px; left:165px; display:inline-block; width:127px; height:41px; background:url(../img/dialog_juu_btn_go.png) center center no-repeat;}
+.dialog_style_ju .dialog_ju_btn_no { position:absolute; bottom:60px; left:301px; display:inline-block; width:75px; height:21px; background:url(../img/dialog_ju_btn_no.png) center center no-repeat;}
+
+/* 弹窗样式  */
+.dialog_style_new { position:relative; background:url(http://img02.taobaocdn.com/imgextra/i2/134438702/T2SMVKXuNaXXXXXXXX-134438702.png) center center no-repeat; height:277px; overflow:hidden;}
+.dialog_title_text { position:relative; height:50px; overflow:hidden;}
+.dialog_title span { display:block; float:left; height:30px; font-size:14px; padding-left:10px; cursor:move; color:#000;}
+.hint{ float:left; height:30px; font-family: Microsoft YaHei;padding-left: 20px;padding-top: 4px; font-size:24px;color:#d51938;}
+.dialog_btn_del { position:absolute; top:10px; right:10px; display:block; width:20px; height:20px; line-height:9999px; background:url(http://img01.taobaocdn.com/imgextra/i1/134438702/T2ceKKXqxaXXXXXXXX-134438702.png) top center no-repeat; cursor:pointer; overflow:hidden;}
+.dialog_style_btn { position:absolute; bottom:50px; left:165px; display:inline-block;text-align: center; width:127px; height:41px; background:#d51938; border-radius:5px;}
+.btn_text{font-family: Microsoft YaHei; text-align:center; line-height:41px; color:#fff600; font-size:20px;}
+
+/*新弹窗*/
+.popup_box_1{ width:450px; height:265px;background: url(http://static.zhushou001.com/img/dialog_bg.png) no-repeat;}
+.popup_box_1 .title_logo { background: url(http://static.zhushou001.com/img/popup_title_logo.png) center 5px no-repeat; width:28px; height:28px;}
+.popup_box_1 .popup_title{ float:left; width:435px; padding-left:15px; height:35px;}
+.popup_box_1 .popup_title_text{ float:left;font-family:"微软雅黑"; color:#5a4a00; width:400px; }
+.popup_box_1 .popup_title_text img{ float:left;vertical-align:middle;}
+.popup_box_1 .popup_title_text span{float: left; padding-top: 6px; padding-left: 2px; line-height: 25px; font-size: 16px;}
+.popup_box_1 .popup_close{ float: right;background:url(http://static.zhushou001.com/img/dialog_btn_close.png) no-repeat; width:20px; height:20px;margin-top: 8px;margin-right: 10px;}
+.popup_box_1 .popup_content {width: 450px;}
+.popup_box_1 .dialog_btn{ background:url(http://static.zhushou001.com/img/btn.png) no-repeat; margin:auto;text-align:center;  width:129px; height:42px;}
+.popup_box_1 .dialog_btn a{text-decoration:none; display:block;color:#fff; font-size:22px;font-family:"微软雅黑"; line-height:36px;font-weight: bold; letter-spacing:2px;}
+
+/*新弹窗2*/
+.popup_box_2{ width:450px; height:268px;background: url(http://static.zhushou001.com/img/popup_bg_2.png) no-repeat;}
+.popup_box_2 .popup_title{ float:left; width:435px; padding-left:8px; height:35px;}
+.popup_box_2 .title_logo{ background: url(http://static.zhushou001.com/img/popup_title_logo_2.png) center 8px no-repeat; width:23px; height:23px;}
+.popup_box_2 .popup_title_text{ float:left;font-family:"微软雅黑"; color:#fff; width:400px; }
+.popup_box_2 .popup_title_text span { float: left; padding-top: 7px; padding-left: 2px; line-height: 25px; font-size: 14px;}
+.popup_box_2 .popup_close{ float: right;background: url(http://static.zhushou001.com/img/popup_btn_close_2.png) no-repeat; width:20px; height:20px;margin-top: 8px;}
+.popup_box_2 .popup_content {width: 450px;text-align: center;padding-top:55px;}
+.popup_box_2 .popup_content .down {float: left;font-family: '微软雅黑';font-size:15px;color: #fff;letter-spacing: 1px;line-height:36px;}
+.popup_box_2 .popup_content .number {background: url(http://static.zhushou001.com/img/popup_time_bg_2.png) no-repeat;float: left;width: 36px;
+    height:36px;font-family: Arial, Helvetica, sans-serif;font-size:18px;color: #0c80e8;text-align: center;line-height:36px;}
+.popup_box_2 .popup_content .number_text {float: left;font-family: '微软雅黑';font-size: 15px;color: #fff;line-height:36px;padding-left: 7px;padding-right: 7px;}
+.popup_box_2 .dialog_btn{ margin:auto;text-align:center;  width:115px; height:33px; margin-top:10px;margin-left: 103px; background:#0c80e8; border-radius:4px; }
+.popup_box_2 .dialog_btn a{ display:block;text-decoration:none;color:#fff; font-size:16px;font-family:"微软雅黑"; line-height:33px;}
+
+/*新弹窗3*/
+.popup_box_3{ width:453px; height:287px;background: url(http://static.zhushou001.com/img/popup_bg_3_1.png) no-repeat;}
+.popup_box_3 .popup_title{}
+.popup_box_3 .popup_close{ float: right;background: url(http://static.zhushou001.com/img/popup_btn_close_3_1.png) no-repeat; width:28px; height:27px;margin-top:20px;}
+.popup_box_3 .popup_content {width: 450px;text-align: center;padding-top: 70px;height: 90px;}
+.popup_box_3 .dialog_btn{ background:url(http://static.zhushou001.com/img/popup_btn_3_1.png) no-repeat; width:132px; height:44px;margin-top:64px;margin-left: 157px;}
+.popup_box_3 .dialog_btn a{text-decoration:none; display:block;font-size:18px;font-family:"微软雅黑"; line-height:38px; color:#9a2800;text-align: center; font-weight: bold;}
+
+/*新弹窗4*/
+.popup_box_4{ width:550px; background:#fef9e6; border:10px solid #7d7d7d;}
+.popup_box_4 .popup_title{}
+.popup_box_4 .popup_title_text { height: 57px;}
+.popup_box_4 .popup_close{background: url(http://static.zhushou001.com/img/popup_btn_close_4.png) center right no-repeat;  height:20px;margin-top:-50px;margin-right: 5px;}
+.popup_box_4 .popup_content {}
+.popup_box_4 .dialog_btn{ width:530px;height:50px;text-align: center; }
+.popup_box_4 .dialog_btn a{ padding:8px 18px;margin-bottom:20px;background: #bc2a23;border: 1px solid #860600;font-size: 16px;font-family: "微软雅黑";color: #EEE; text-decoration:none;}
+
+/*新弹窗5*/
+.popup_box_5{ width:450px; background:#feeeee; border:10px solid #900000;}
+.popup_box_5 .popup_title{ height:0px;}
+.popup_box_5 .popup_close{ background:url(http://static.zhushou001.com/img/popup_btn_close_5.png) no-repeat; width:22px; height:21px;margin-top: -9px;
+margin-right: -5px;
+float: right;}
+.popup_box_5 .popup_content {  width:430px;}
+.popup_box_5 .popup_btn{}
+.popup_box_5 .popup_btn a{}
